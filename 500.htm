@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>omcms</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700%7CMontserrat:700%7CDroid+Sans:400&subset=latin" rel="stylesheet">
+
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+
+    <style>
+        a.notinews-logo{
+            font-family: "Montserrat", Arial;
+            font-size: 30px;
+            font-weight: 700;
+            color: #ffffff;
+            line-height: 30px;
+            letter-spacing: -1.5px;
+        }
+
+        a.notinews-logo:hover{
+            text-decoration: none;
+        }
+
+
+        .bg-black{
+            background: #000;
+        }
+
+        .logo-point{
+            color: #ce1126;
+        }
+
+        .mobile-display{
+            display: none;
+        }
+        .desktop-display{
+            display: block;
+        }
+
+        .small-display{
+            display: none;
+        }
+        .medium-display{
+            display: block;
+        }
+
+
+        .main{
+            margin: 0px 20px;
+            font-family: "Hind", Arial;
+            font-size: 18px;
+        }
+
+        .main a{
+            color: cornflowerblue;
+
+        }
+
+        .notinews-thumb{
+            font-family: "Montserrat", Arial;
+            font-size: 18px;
+            width: 300px;
+            min-width: 300px;
+            max-width: 300px;
+            height: 350px;
+            min-height: 350px;
+            max-height: 350px;
+            border-radius: 4px;
+            margin: 10px auto;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .notinews-thumb .content{
+            position: absolute;
+            top: 60%;
+            z-index: 100;
+            width: 80%;
+            left: 30px;
+            text-align: left;
+        }
+
+        .notinews-thumb h2 a{
+            font-family: "Hind", Arial;
+            font-size: 20px;
+            color: #ffffff;
+            font-weight: 400;
+        }
+
+        .category{
+            font-family: "Droid Sans", Arial;
+            font-size: 14px;
+            background: #ce1126;
+            color: #ffffff;
+            padding: 2px;
+            font-weight:400;
+            letter-spacing: 0.025em;
+            line-height: 12px;
+            text-transform: uppercase;
+        }
+
+        .carousel-item {
+            height: 65vh;
+            min-height: 300px;
+            background: no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        .entry-content{
+            text-align: justify;
+        }
+        .alignleft{
+            float: left;
+        }
+
+        h3{
+            font-size: 18px;
+            margin: 5px 0 5px 0;
+        }
+
+        .notinews-ultimas-side ul{
+            list-style-type: none;
+            padding-left:0;
+        }
+
+        .notinews-ultimas-side .news-thumb{
+            width: 180px;
+        }
+
+        .notinews-ultimas-side .news-link{
+            color: cornflowerblue;
+        }
+
+
+        @media only screen and (max-width: 550px) {
+            .mobile-display{
+                display: block;
+            }
+            .desktop-display{
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 990px) {
+            .small-display{
+                display: block;
+            }
+            .medium-display{
+                display: none;
+            }
+        }
+
+
+    </style>
+
+
+
+</head>
+
+<body>
+
+
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black py-3">
+
+    <a class="notinews-logo" href="/">omcms<span class="logo-point">.</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+</nav>
+
+
+<style>
+    .error-template {padding: 40px 15px;text-align: center; width: 100%;}
+    .error-actions {margin-top:15px;margin-bottom:15px;}
+    .error-actions .btn { margin-right:10px; }
+</style>
+
+<div class="container" style="height: 600px">
+    <div class="row">
+        <div class="error-template">
+
+            <h2>HTTP 500 Error</h2>
+            <div class="error-details">
+                There was an Error. Please try again in a few minutes or contact support.<br>
+
+            </div>
+            <div class="error-actions">
+                <a href="/" class="btn text-white" style="background: #ce1126;">
+                    <i class="icon-home icon-white"></i> Página principal </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="pt-2 pb-1 bg-black">
+    <p class="ml-3 left text-muted small" style="line-height: 30px">Copyright © 2018 omcms</p>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,206 @@
+.menunav.nav-section {
+    margin-top: 0;
+}
+
+/* page title */
+.page-title {
+    display: flex;
+}
+
+.space {
+    padding-top: 17px;
+}
+
+ .page-title h2 {
+    background: #ce1126;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 17px 0;
+    padding: 10px 38px;
+    text-transform: uppercase;
+}
+.deportes .page-title h2 {
+    background: #ea9800 none repeat scroll 0 0; 
+}
+.noticias .page-title h2{
+    background: #045881 none repeat scroll 0 0; 
+}
+.page-title ol {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    margin: 15px 0 15px 10px;
+}
+
+.page-title .breadcrumb a {
+    color: #ce1126;
+}
+.deportes .page-title .breadcrumb a {
+    color: #ea9800;
+}
+.noticias .page-title .breadcrumb a {
+    color: #045881;
+}
+
+.breadcrumb>li+li:before {
+    padding: 0 10px;
+    color: #ccc;
+    content: "/\00a0";
+}
+
+/* article featured */
+.article-featured {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.cat-featured {
+    background: #ce1126 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    padding: 3px 15px;
+    border-radius: 3px;
+    transition: .3s ease;
+}
+.deportes .cat-featured {
+    background: #ea9800;
+    
+}
+.noticias .cat-featured {
+    background: #045881;
+    
+}
+.article-featured h2 {
+    margin: 20px 0;
+}
+
+.article-featured h2 a {
+    color: #fff;
+}
+
+.img-featured {
+    height: 293px;
+    overflow: hidden;
+}
+
+.article-featured img.img-fluid {
+    /* height: 100%; */
+    width: 100%;
+}
+
+.article-featured figcaption {
+    position: absolute;
+    bottom: 0;
+    padding: 16px;
+    z-index: 2;
+}
+
+.article-featured figure {
+    position: relative;
+}
+
+.article-featured figure:hover img {
+    transform: scale(1.1);
+}
+.article-featured figure figcaption:hover h2 a  {
+    color: #ce1126;
+    text-decoration: none;
+}
+.noticias .article-featured figure figcaption:hover h2 a  {
+    color: #045881;
+    text-decoration: none;
+}
+.deportes .article-featured figure figcaption:hover h2 a  {
+    color: #ea9800;
+    text-decoration: none;
+}
+/* category single */
+.category-single-news {
+    margin-bottom: 30px;
+}
+
+.category-single-news .image-category {
+    height: 199px;
+    overflow: hidden;
+}
+.category-single-news img.img-fluid {
+    width: 100%;
+
+}
+.category-single-news h3 a {
+    color: #222;
+    font-size: 19px;
+    font-weight: 600;
+    transition: all 0.2s ease 0s;
+    text-align: justify;
+}
+.news-excerpt {
+    text-align: justify;
+}
+.category-single-news a.btn {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #747474;
+    border: 1px solid #747474;
+    border-radius: 0;
+    transition: .2s ease;
+}
+.category-single-news h3 a:hover {
+    text-decoration: none;
+    color: #ce1126;
+}
+.noticias .category-single-news h3 a:hover {
+    text-decoration: none;
+    color: #045881;
+}
+.deportes .category-single-news h3 a:hover {
+    text-decoration: none;
+    color: #ea9800;
+}
+.category-single-news a.btn:hover {
+    color: #fff;
+    background: #ce1126;
+    border-color:#ce1126;
+}
+.noticias .category-single-news a.btn:hover {
+    background: #045881;
+    border-color:#045881;
+}
+.deportes .category-single-news a.btn:hover {
+    background: #ea9800;
+    border-color:#ea9800;
+}
+.noti-widget.noti-section {
+    padding-top: 0;
+   
+}
+.noti-widget.noti-section h2{
+    background-color: #ce1126;
+}
+.noticias .noti-widget.noti-section h2{
+    background-color: #045881;
+}
+.deportes .noti-widget.noti-section h2{
+    background-color: #ea9800;
+}
+.noti-section .fn-content a:hover {
+    text-decoration: none;
+    color: #ce1126;
+}
+.noticias .noti-section .fn-content a:hover {
+    text-decoration: none;
+    color: #045881;
+}
+.deportes .noti-section .fn-content a:hover {
+    text-decoration: none;
+    color: #ea9800;
+}
+.rrss.rs-section {
+    padding-top: 86px;
+}
+.noticias .rrss.rs-section h2 {
+    background: #045881;
+}
+.deportes .rrss.rs-section h2 {
+    background: #ea9800;
+}

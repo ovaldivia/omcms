@@ -1,0 +1,12 @@
+.DS_Store
+composer.lock
+composer.phar
+.env
+.idea
+config/db.config.php
+.log
+.htaccess
+xmls
+vendor
+vagrant
+uploads
